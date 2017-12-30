@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <meta name="description" content="">
+        <meta name="author" content="Robin Saha">
+
+        <title>Nascenia Interview Project</title>
+
+        <link href="css/style.css" rel="stylesheet">       
+
+    </head>
+	
+	<body>
+
+		<div class="container">
+        <div class="row centered-form">
+        <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
+        	<div class="panel panel-default">
+        		<div class="panel-heading">
+			    		<h3 class="panel-title">Contact Form <small>Made By Robin</small></h3>
+			 			</div>
+			 			<div class="panel-body">
+			    		<form role="form" id="contact-form" onsubmit="submitForm(); return false;">
+			    			<div class="row">
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    					<div class="form-group">
+			                			<input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="First Name" pattern="([A-zÀ-ž\s]){3,}" required>
+										<small>Letter between A-Z or a-z</small>
+			    					</div>
+			    				</div>
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    					<div class="form-group">
+			    						<input type="text" name="last_name" id="last_name" class="form-control input-sm" placeholder="Last Name" pattern="([A-zÀ-ž\s]){2,}">
+										<small>Letter between A-Z or a-z</small>
+			    					</div>
+			    				</div>
+			    			</div>
+			    			<div class="form-group">
+			    				<input type="text" name="mobile" id="mobile" class="form-control input-sm" placeholder="Mobile" pattern="^\d{3}-\d{10}$" required>
+								<small>Phone Number (format: 880-1685248405):</small>
+			    			</div>
+			    			<div class="form-group">
+								<input type="text" name="mobile" id="address" class="form-control input-sm" placeholder="Address" pattern="([A-z0-9À-ž\s]){10,}" required>			 <small>String need to be at least 10 character long</small>			    				
+			    			</div>
+			    			<div class="form-group">
+			    				<input type="email" name="email" id="email" class="form-control input-sm" placeholder="Email Address" required>
+			    			</div>
+			    			<input type="submit" value="Submit" class="btn btn-info btn-block" id="submitbtn">
+			    			<div id="status"></div>			    		
+			    		</form>
+			    	</div>
+	    		</div>
+    		</div>
+    	</div>
+    </div>
+  		
+		
+    	<script src="js/jquery.min.js" type="text/JavaScript"></script>
+    	<!-- Bootstrap core JavaScript -->    	
+    	<script src="js/bootstrap.bundle.min.js" type="text/JavaScript"></script>	
+        <script src="js/myscript.js" type="text/JavaScript"></script>
+    	
+	</body>
+
+</html>

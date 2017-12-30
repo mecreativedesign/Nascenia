@@ -1,0 +1,37 @@
+@font-face {
+	font-family: 'SutonyMJ';  	
+  	src: url("../fonts/Sutony/SutonnyMJ.eot?#iefix") format("embedded-opentype"), url("../fonts/Sutony/SutonnyMJ.woff") format("woff"), url("../fonts/Sutony/	       SutonnyMJ.ttf") format("truetype"),  url("../fonts/Sutony/SutonnyMJ.svg") format("svg");
+  	font-weight: strong;
+  	font-style: normal; 
+  }
+
+@font-face {
+	font-family: 'MyriadPro';  	
+  	src: url("../fonts/MyriadPro/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro/MyriadPro-Regular.ttf") format("truetype"),  url("../fonts/MyriadPro/MyriadPro-Regular.svg") format("svg");
+  	font-weight: strong;
+  	font-style: normal; 
+  }
+
+body{
+    font-family: MyriadPro,SutonyMJ;
+}
+
+h1,h2,h3{
+  	font-family:MyriadPro, SutonyMJ;
+  }
+
+a{
+  	text-decoration:none;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+.nopadding{
+    padding:0px;
+}
+
+.grey-color{
+    background:#eeeef0;
+}
